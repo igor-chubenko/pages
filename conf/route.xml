@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<routes>
+    <route>
+        <pattern>/</pattern>
+        <controller>pageController</controller>
+        <action>show</action>
+    </route>
+
+    <route>
+        <pattern>/show</pattern>
+        <controller>pageController</controller>
+        <action>show</action>
+    </route>
+
+    <route>
+        <pattern>/add</pattern>
+        <controller>pageController</controller>
+        <action>add</action>
+    </route>
+
+    <route>
+        <pattern>/edit</pattern>
+        <controller>pageController</controller>
+        <action>edit</action>
+    </route>
+
+    <route>
+        <pattern>/delete</pattern>
+        <controller>pageController</controller>
+        <action>delete</action>
+    </route>
+</routes>

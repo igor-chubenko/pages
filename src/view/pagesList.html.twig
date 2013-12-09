@@ -1,0 +1,7 @@
+{% extends "index.html.twig" %}
+
+{% block body %}
+    {{ messages.success  }}
+    {{ messages.error  }}
+    {{ pageData.pages|raw  }}
+{% endblock %}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<databases>
+    <database>
+        <host>localhost</host>
+        <login>root</login>
+        <password></password>
+        <database_name>pages</database_name>
+    </database>
+</databases>

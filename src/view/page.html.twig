@@ -1,0 +1,11 @@
+{% extends "index.html.twig" %}
+
+{% block body %}
+    {{ messages.success  }}
+    {{ messages.error  }}
+    <a class="link" href="/">Возвратиться к списку страниц</a>
+    <h1>{{ pageData.pages.title }} {{ pageIndex }}</h1>
+    <div id="pageBody">{{ pageData.pages.body }}</div>
+    <a class="link" href="/edit?id={{ pageData.pages.id }}">Редактировать страницу</a>
+    <a class="link" href="/">Возвратиться к списку страниц</a>
+{% endblock %}
